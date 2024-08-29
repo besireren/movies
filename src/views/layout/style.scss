@@ -1,0 +1,18 @@
+.layout-wrapper {
+    height: 100%;
+}
+
+.layout-head-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    align-items: center;
+    gap: 10px;
+    place-content: center;
+    position: relative;
+    & > a {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+}

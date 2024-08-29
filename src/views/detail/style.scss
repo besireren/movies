@@ -1,0 +1,27 @@
+.detail-wrapper {
+    display: flex;
+    gap: 4px;
+    padding: 16px;
+    @media only screen and (max-width: 968px) {
+        flex-direction: column;
+      }
+    .data-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 6px;
+        & > div {
+            display: flex;
+            padding-block: 4px;
+            padding-inline: 6px;
+            & > p {
+                min-width: 85px;
+                margin: 0;
+                text-transform: capitalize;
+            }
+        }
+        div:nth-child(odd) {
+            background-color: #ededed;
+        }
+    }
+}
