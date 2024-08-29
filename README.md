@@ -1,6 +1,26 @@
 
-### `Task for Invent Analytics`
+# `Task for Invent Analytics`
 
+## `Used`
+    - React
+    - Git
+    - ES5
+    - SCSS
+    - Redux
+## `Includes`    
+    - Search by Title
+    - Search by Type
+    - Search by Year
+    - Detail on another page
+    - Pagination
+    - Gird Data
+    - Responsive data
+    - Responsive header 
+    - Default Search text (min 3 required)
+
+### `npm install`
+
+Install the necessary libraries.
 
 ### `npm start`
 
