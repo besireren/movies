@@ -14,7 +14,7 @@ const Detail = () => {
     if (id) {
       dispatch(getMovieByIDData(id))
     }
-  })
+  },[id])
   return (
     <div className='detail-wrapper'>
       {!selectedLoading && selectedMovie.Response === 'True' &&
